@@ -5,6 +5,7 @@
 - Keep It Stupid Simple!
 - Follow Clean Code
 - Test if you think it makes sense. API Endpoints should have tests.
+- Lets build fast & know our stack. Let's not be that Hipster Dev that switches its techstack every 3 months.
 
 ## Infrastructure
 
