@@ -5,7 +5,7 @@
 - Keep It Simple, Stupid!
 - Follow Clean Code
 - Test if you think it makes sense, usually starting with tests for API Endpoints.
-- Lets build fast & know our stack. Let's not be that Hipster Dev that switches its techstack every 3 months.
+- Lets build fast, know our stack, innovate when necessary but otherwise use established standards.
 
 ## Infrastructure
 
