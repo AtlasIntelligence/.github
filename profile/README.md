@@ -9,7 +9,7 @@
 
 ## Infrastructure
 
-Basically all the infrastructure should be hosted as Clound Run or Cloud Function on GCP. Only stable services with heavy compute workloads can be placed on other infrastructure like Hetzner.
+Basically all the infrastructure should be hosted as Cloud Run or Cloud Function on GCP. Only stable services with heavy compute workloads can be placed on other infrastructure like Hetzner.
 
 Services as e.g. APIs should run in Cloud Run. (Cloud Run Template) coming soon
 
