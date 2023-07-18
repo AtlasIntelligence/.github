@@ -9,11 +9,8 @@
 
 ## Infrastructure
 
-Basically all the infrastructure should be hosted as Cloud Run or Cloud Function on GCP. Only stable services with heavy compute workloads can be placed on other infrastructure like Hetzner.
-
-Services as e.g. APIs should run in Cloud Run. (Cloud Run Template) coming soon
-
-Code that reacts to events can be deployed using Cloud Functions. (Cloud Function Template) cooming soon
+Basically all the infrastructure should be hosted on either GCP or our dedicated servers. 
+On GCP we focus mostly on Cloud Run, Cloud Storage, and Pub/Sub; we usually avoid more expensive stuff like Cloud Functions and Compute Engine.
 
 In order to deploy infrastrucutre terraform and github-actions shall be used. Service related infrastructure should be placed within the service's repository. General infrastrucutre in the [gcp-bootstrap repo](https://github.com/AtlasIntelligence/gcp-bootstrap).
 
